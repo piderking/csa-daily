@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=P6_6
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ P6_6\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=times
+comment1.target=P6_6(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ P6_6\r\n
+comment2.params=
+comment2.target=java.lang.String\ getPosition()
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TicTacToe\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TicTacToe\r\n
+comment2.params=position
+comment2.target=boolean\ playPlayer1(int)
+comment3.params=position
+comment3.target=boolean\ playPlayer2(int)
+comment4.params=
+comment4.target=int\ getWinner()
+comment5.params=
+comment5.target=void\ printGameState()
+comment6.params=ch
+comment6.target=boolean\ checkWinner(char)
+numComments=7

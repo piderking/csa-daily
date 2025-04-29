@@ -12,27 +12,32 @@ public class RangeInput
     public int temp;
     private int high;
     private int low;
-    private int range;
 
     /**
      * Constructor for objects of class RangeInput
      */
-    public RangeInput(int high, int low, int temp)
+    public RangeInput(int high, int low)
     {
         // initialise instance variables
         this.high = Math.max(temp, high);
         this.low = Math.min(temp, low);
-        this.temp = Math.max(temp, high);
+        this.temp = (low + high) / 2;
         
         
-        range = this.high - this.low;
+        //range = this.high - this.low;
     }
     
-    public void up(int units){
-        temp = Math.max(temp+units, high);
+    public void up(){
+        temp = Math.max(temp+1, high);
     }
-    public void down(int units){
-        temp = Math.min(temp-units, low);
+    
+   
+    public void down(){
+        temp = Math.max(temp-1, low);
+    }
+    
+    public int getCurrent(){
+        return temp;
     }
 
 }

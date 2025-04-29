@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Monthly
+comment1.params=day\ year\ description
+comment1.target=Monthly(int,\ int,\ java.lang.String)
+comment2.params=date
+comment2.target=boolean\ occursOn(java.lang.String)
+numComments=3

@@ -14,7 +14,6 @@ public class ProductPrinter
     /**
      * Constructor for objects of class ProductPrinter
      */
-    public ProductPrinter(){}
     
     public static void main(String[] args){
         Product prod1 = new Product("HP ONE Printer", 100.99);

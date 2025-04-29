@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GameSimulator
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ E6_9\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=double\ getWinPercent()
+comment2.params=times
+comment2.target=GameSimulator(int)
+comment3.params=
+comment3.target=void\ runDoubleDieSimulation()
+comment4.params=
+comment4.target=void\ runSingleDieSimulation()
+comment5.params=
+comment5.target=int\ rollForSix()
+comment6.params=
+comment6.target=int\ rollTwoPairs()
+numComments=7
