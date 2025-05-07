@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Query
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Query\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=file_name\ year\ gender
+comment1.target=Query(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=boolean\ isValid()
+comment3.params=
+comment3.target=java.util.ArrayList\ getNames()
+comment4.params=
+comment4.target=java.util.ArrayList\ getCounts()
+comment5.params=other
+comment5.target=Query\ extend(Query)
+comment6.params=
+comment6.target=void\ display()
+numComments=7

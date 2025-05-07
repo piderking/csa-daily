@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Baby
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Baby\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=directoryPath
+comment1.target=java.lang.String[]\ getStates(java.lang.String)
+comment2.params=state
+comment2.target=java.lang.String\ stateToFile(java.lang.String)
+comment3.params=states\ st
+comment3.target=boolean\ isValidState(java.lang.String[],\ java.lang.String)
+comment4.params=states\ st
+comment4.target=boolean\ isActiveState(java.util.ArrayList,\ java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
