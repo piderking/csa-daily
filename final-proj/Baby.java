@@ -82,6 +82,17 @@ public class Baby
                         while (!in.hasNext()){}
                         String[] strs = in.nextLine().toUpperCase().split(" ");
                         for (String s : strs){
+                            
+                            if (s.trim().toLowerCase().equals("all")){
+                                active_states = new ArrayList<>();
+                                
+                                for (String st : states){
+                                    active_states.add(st);
+                                }
+                                System.out.println("Added All States");
+                                break;
+                            }
+                            
                             if (!isValidState(states, s)){
                                 System.out.println(s +": Invalid State");
                                 continue;
@@ -112,12 +123,13 @@ public class Baby
                         String year = strs[0];
                         
                         if (active_states.size() > 0) {
-                            System.out.print(stateToFile(active_states.get(0)));
                             try {
+                            System.out.println("Creating Query...");
                             Query q = new Query(stateToFile(active_states.get(0)), year, gender);
                             for (int i = 1; i < active_states.size(); i++){
 
-                                 System.out.print(stateToFile(active_states.get(i)));
+                                 Query d = new Query(stateToFile(active_states.get(i)), year, gender);
+                                 q.extend(d);                                 
 
                             }
                             q.display();

@@ -62,17 +62,30 @@ public class Query
         return this;
     }
     public void display() {
+        
+        if (!isValid()){
+            System.out.println("Invalid Year or Gender!... Try again (limit 2022)");
+            return;
+        }
         // TODO Just Display!
         int most_pop = 0;
         double total = 0;
+        
+        
         for (int i = 0; i < cnts.size(); i++){
             if (cnts.get(i) > cnts.get(most_pop)) { 
-                most_pop = i; total +=cnts.get(i); 
+                most_pop = i; 
             }
+            total += cnts.get(i);
         }
+        //System.out.println("Most Popular: " + names.get(most_pop) + " | " + cnts.get(most_pop));
+        //System.out.println("Total: " + total);
+        //System.out.println("Percent: " + 100.0 * cnts.get(most_pop) / total);
         
-        //String s = "The most popular " + gender  + " name in " + year + " was " + names.get(most_pop) +  ". " + cnts.get(most_pop) + " babies were born named " + names.get(most_pop) + " which made up " + cnts.get(most_pop) / total * 100 + "% of the births";
+        java.text.DecimalFormat df = new java.text.DecimalFormat("0.00");
+
+        String s = "The most popular " + gender  + " name in " + year + " was " + names.get(most_pop) +  ". " + cnts.get(most_pop) + " babies were born named " + names.get(most_pop) + " which made up " + df.format(cnts.get(most_pop) / total * 100) + "% of the births";
         
-        //System.out.println(s);
+        System.out.println(s);
     }
 }
